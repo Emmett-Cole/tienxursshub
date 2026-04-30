@@ -20,7 +20,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       - name: Install pnpm
         uses: pnpm/action-setup@v4
       - name: Use Node.js Active LTS
@@ -44,7 +44,7 @@ jobs:
       - name: Build docs
         run: pnpm build:docs
       - name: Checkout docs
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: 'RSSNext/rsshub-docs'
           token: ${{ secrets.DOCS_API_TOKEN }}
