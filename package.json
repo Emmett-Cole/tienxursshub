@@ -73,7 +73,7 @@
         "entities": "4.5.0",
         "etag": "1.8.1",
         "fanfou-sdk": "5.0.0",
-        "form-data": "4.0.0",
+        "form-data": "4.0.5",
         "googleapis": "139.0.0",
         "hono": "4.4.3",
         "html-to-text": "9.0.5",
